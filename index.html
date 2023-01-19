@@ -143,8 +143,11 @@
                         </div>
                     </div>
                     <a href="https://www.linkedin.com/in/lamon-zhao-2577b4261/"
-                        class="btn btn-outline-primary mr-4">Linkedin</a>
-                    <a href="https://github.com/coolweb131/" target="_blank" class="btn btn-outline-primary">Github</a>
+                        class="btn btn-outline-primary mr-2">Linkedin</a>
+                    <a href="https://github.com/coolweb131/" target="_blank"
+                        class="btn btn-outline-primary mr-2">Github</a>
+                    <!-- <button id="contact-btn" class="btn btn-outline-primary">Contact
+                        me</button> -->
                 </div>
             </div>
         </div>
@@ -727,20 +730,20 @@
                 <div class="col-lg-8">
                     <div class="contact-form text-center">
                         <div id="success"></div>
-                        <form name="sentMessage" id="contactForm" novalidate="novalidate">
-                            <div class="form-row">
-                                <div class="control-group col-sm-6">
-                                    <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
-                                        required="required" data-validation-required-message="Please enter your name" />
-                                    <p class="help-block text-danger"></p>
-                                </div>
-                                <div class="control-group col-sm-6">
+                        <form name="sentMessage" id="contactForm" novalidate="novalidate" action="#">
+                            <!-- <div class="control-group"> -->
+                            <div class="control-group">
+                                <input type="text" class="form-control p-4" id="name" placeholder="Your Name"
+                                    required="required" data-validation-required-message="Please enter your name" />
+                                <p class="help-block text-danger"></p>
+                            </div>
+                            <!-- <div class="control-group col-sm-6">
                                     <input type="email" class="form-control p-4" id="email" placeholder="Your Email"
                                         required="required"
                                         data-validation-required-message="Please enter your email" />
                                     <p class="help-block text-danger"></p>
-                                </div>
-                            </div>
+                                </div> -->
+                            <!-- </div> -->
                             <div class="control-group">
                                 <input type="text" class="form-control p-4" id="subject" placeholder="Subject"
                                     required="required" data-validation-required-message="Please enter a subject" />

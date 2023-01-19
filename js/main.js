@@ -134,5 +134,9 @@
         }
     })
 
+    $("#contact-btn").click(function () {
+        window.open()
+    })
+
 })(jQuery);
 
